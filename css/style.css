@@ -1,0 +1,263 @@
+.menu {
+    list-style-type: none;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: rgb(161, 226, 252);
+}
+
+.menu li {
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    border: groove darkblue;
+    background-color: rgb(66, 98, 204);
+}
+
+.menu a {
+    text-decoration: none;
+    -webkit-text-stroke: 0.07px lightblue;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.menu li:hover {
+    background-color: rgb(73, 188, 255);
+    color: blue;
+    text-decoration-color: blue;
+}
+.menu a:hover{
+    color: blue;
+}
+
+.fixeMenu {
+    background-image: linear-gradient(to right, white, rgb(164, 206, 240));
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    text-decoration-skip-ink: initial;
+    text-shadow: gray;
+}
+
+h3 {
+    text-align: center;
+    font-size: 32px;
+    color: darkslateblue;
+}
+
+body {
+    padding-top: 150px;
+}
+
+.fondAcc {
+    background-image: url(../imgs/fondAcrilicAbstractBleu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+.fondAct{
+    background-image: url(../imgs/fondKarateJaune.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%
+}
+.fondHor{
+    background-image: url(../imgs/fondWallPainted.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%
+}
+.fondTab{
+    background-image: url(../imgs/FondWallBrick.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.logo {
+    width: 75px;
+    height: 95px;
+
+}
+
+.image1 {
+    float: right;
+    margin-right: 350px;
+    width: 480px;
+    height: 300px;
+    border: 4px solid darkred;
+}
+.image2 {
+    float: none;
+    margin-top: 0%;
+    margin-left: 22%;
+    margin-right: auto;
+    width: 550px;
+    height: 700px;
+    border: 4px solid black;
+}
+.imageActivites {
+    float: right;
+    margin-right: 350px;
+    width: 480px;
+    height: 300px;
+    border: 4px solid darkred;
+}
+.imgDivActivites{
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: block;
+    float: left;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.imgDivActivites2{
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: block;
+    float: left;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.imgDivActivites3{
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: block;
+    float: left;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.imgDivActivites4{
+    width: 20%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: block;
+    float: left;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.imgDivActivites:hover {
+    width: 480px;
+    margin-left: auto;
+    height: 300px;
+    margin-top: auto;
+}
+.imgDivActivites2:hover {
+    width: 480px;
+    margin-left: 0px;
+    height: 300px;
+    margin-top: -160px;
+}
+.imgDivActivites3:hover {
+    width: 480px;
+    margin-left: 0px;
+    height: 300px;
+    margin-top: -160px;
+}
+.imgDivActivites4:hover {
+    width: 480px;
+    margin-left: 0px;
+    height: 300px;
+    margin-top: -160px;
+}
+.titre1 {
+    margin-left: 150px;
+    text-align: left;
+    font-size: 48px;
+    color: blue;
+    color-interpolation-filters: sRGB;
+}
+.sousTitre1 {
+    margin-left: 150px;
+    text-align: left;
+    font-size: 24px;
+    color: rgb(72, 151, 253);
+}
+.sousTitre2 {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(9, 107, 236);
+}
+.paragraphe1 {
+    margin-left: 150px;
+    margin-right: 850px;
+    color: rgb(14, 51, 51);
+    text-align: justify;
+    font-size: 24px;
+}
+
+.form1 {
+    top: 20%;
+    left: 30%;
+}
+
+.fleche {
+    padding-top: 0%;
+    margin-top: 0%;
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+.flecheCache {
+    padding-top: 0%;
+    margin-top: 0%;
+    float: right;
+    width: 50px;
+    height: 50px;
+    visibility: hidden;
+}
+/*.fleche:hover + img{
+    visibility: hidden;
+}
+.fleche:hover + img {
+    mask-image: url(../imgs/up-arrow.png);
+    visibility: visible;
+}*/
+.fleche:hover {
+    width: 55px;
+    height: 55px;
+}
+.tabFormHor {
+    border: 4px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tabFormHor th, td, tr {
+    text-align: center;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    -webkit-text-stroke: 0.5px green;
+}
+.tabFormHor th {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 0.75px blue;
+}
+.mapouter {
+    position: initial;
+    text-align: right;
+    height: 250px;
+    width: 400px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 250px;
+    width: 400px;
+}
